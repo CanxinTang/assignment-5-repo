@@ -1,4 +1,4 @@
-# assignment-5-repo
+# assignment-5-repo``
 
 3PagsWeb
 
@@ -8,6 +8,6 @@
 
 https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site
 
-![md-](K:\Hub_PC\Git_Repositories\WebApp\assignment-5-repo\resources\for-ReadMe.md-.png)
+![](file:///K:/Hub_PC/Git_Repositories/WebApp/assignment-5-repo/resources/for-ReadMe.md-.png)
 
 
