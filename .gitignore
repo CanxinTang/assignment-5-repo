@@ -1,0 +1,3 @@
+# Include any file/directory names that need not be tracked such as test, .vscode, etc.
+
+.vscode
