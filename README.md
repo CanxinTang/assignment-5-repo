@@ -8,5 +8,4 @@
 
 https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site
 
-![alt text](image.png)
-
+![e909a707-7089-4a7d-b0fa-751d43ad84cf](file:///C:/Users/canxi/OneDrive/Pictures/Typedown/e909a707-7089-4a7d-b0fa-751d43ad84cf.png)
