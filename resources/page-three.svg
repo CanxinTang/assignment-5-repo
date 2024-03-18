@@ -1,0 +1,12 @@
+<!-- xml codes -->
+<!-- edit like a .txt file, and open with a browser to see the result of the picture -->
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <path id="squarePath" fill="none" stroke="black" d="M 5 5 H 195 V 195 H 5 V 5 Z" />
+
+  <circle r="5" fill="red">
+    <animateMotion dur="10s" repeatCount="indefinite">
+      <mpath href="#squarePath" />
+    </animateMotion>
+  </circle>
+</svg>

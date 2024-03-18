@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Assignment 5 - Home</title>
+    <!--
+    Comment:// Link to an external CSS file . This should inside <head> 
+    <link rel="stylesheet" href="style.css"> 
+    -->
 </head>
 
-<!-- should only use one <body> tag  -->
-<body> 
-<!-- use SVG code inside the body tag of your HTML files --> 
+<body>
+    <!-- SVG Banner on the top of user-view web -->
+    <svg width="100%" height="300">
+        <rect width="100%" height="300" style="fill:rgb(0, 255, 55);" />
+        <circle cx="50%" cy="150" r="80" style="fill:rgb(0, 204, 255);" />
+        <polygon points="150,110 190,190 110,190" style="fill:rgb(208, 255, 0);" />
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="20">Hello</text>
+    </svg>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navigation Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./views/two.html">Page Two</a></li>
+            <li><a href="./views/three.html">Page Three</a></li>
+        </ul>
+    </nav>
 
-    <svg version="1.1"
-     width="300" height="200"
-     xmlns="http://www.w3.org/2000/svg">
+    <h1>Assignment 5</h1>
 
-  <rect width="100%" height="100%" fill="red" />
+    <!-- Link to an external CSS file should be inside <head> -->
+    <h2 class="css-question">How to Apply CSS to HTML</h2>
+    <p class="css-question">Example of including an external CSS file in an HTML file:
+       <code>&lt;link rel="stylesheet" href="style.css"&gt;</code>
+    </p>
 
-  <circle cx="150" cy="100" r="80" fill="green" />
-
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
-
-</svg>
-
-    <main>
-        <section>
-            <h2>About Our Website</h2>
-            <p>This is a simple 3-page website example. Navigate through the site to learn more about us and how to contact us.</p>
-        </section>
-    </main>
+    <!-- Link to an external js file should be inside <body> -->
+    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+    <p class="js-question">Example of linking to an external JavaScript file:
+        <code>&lt;script src="path/to/my/script.js"&gt;&lt;/script&gt;</code>
+    
+    </p>
+    <p class="js-question">Example of writing JavaScript code within an HTML file:
+        <pre>
+            &lt;script&gt;
+            window.addEventListener("load", () => {
+                console.log("This function is executed once the page is fully loaded");
+              });
+            &lt;/script&gt;
+        </pre>
+    </p>
 </body>
 
 </html>
